@@ -1,0 +1,89 @@
+<html>
+<head>
+	<title>LATIHAN NAVBAR</title>
+	<meta charset="utf-8" >
+	<meta name="viewport" content="width=device-width, initial-value=1.0">
+	<style>
+	.navbar {
+		position: fixed;
+		width: 100%;
+		height: 60px;
+		background-color: black;
+		display: flex;
+		top: 0;
+		left: 0;
+		box-sizing: border-box;
+		z-index: 1000;
+		align-items: center;
+		justify-content: space-between;
+		padding-right:4.5rem;
+	}
+	.nav-links {
+		display: flex;
+		gap: 25px;
+		list-style: none;
+		
+	}
+	.nav-links li a {
+		color: white;
+		text-decoration: none;
+		font-size: 17px;
+		transition: 0.3s;
+		background-color: gray;
+		padding: 10px;
+		border-radius: 5px;
+	}
+	.nav-links li a:hover {
+	cursor: pointer;
+	background-color: white;
+	color: black;
+	}
+	
+	.content {
+		padding: 80px 20px;
+		background: linear-gradient( 135deg, #6a5af9,#5ac8fa);
+		color: white;
+		box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+		border-radius: 4px;
+		justify-content:center;
+		align-items:center;
+		display:flex;
+		margin: 40px;
+	}
+	.logo{
+	color: black;
+	shadow: 0 0 7px #fff,0 0 21px #ff00de;
+	font-size: 21px;
+	font-weight: bold;
+	margin:  10px;
+	background-color: white;
+	border-radius: 10px;
+	padding: 10px;
+	
+	}
+	</style>
+	<link rel="icon" type="image/png" href="../../latihan4/fot.png">
+</head>
+<body>
+	<nav class="navbar">
+		<div class="logo">MRAY</div>
+		<ul class="nav-links">
+			<li><a href="#hero">Home</a></li>
+			<li><a href="profil.html">Profile</a></li>
+			<li><a href="#">Contact</a></li>
+			<li><a href="pengunjung.html">Visiter Data</a></li>
+		</ul>
+	</nav>
+	
+	<section id="hero" class="content">
+		<div>
+		<h1>Welcome</h1>
+		<p>selamat menikmati web saya...</p>
+		<div>
+	</section>
+	<section class="content">
+		<h2>about me</h2>
+		<p>saya adalh seorang siswa PPLG dengan keahlian penguasaan html css dan js</p>
+	</section>
+</body>
+</html>ls
